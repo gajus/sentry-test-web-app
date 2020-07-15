@@ -1,0 +1,14 @@
+coverage
+dist
+node_modules
+*.log
+.*
+!.babelrc.js
+!.dockerignore
+!.editorconfig
+!.eslintignore
+!.eslintrc
+!.flowconfig
+!.gitignore
+!.gitlab-ci.yml
+!.npmignore

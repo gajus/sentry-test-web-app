@@ -1,0 +1,45 @@
+{
+  "ava": {
+    "babel": {
+      "compileAsTests": [
+        "test/helpers/**/*"
+      ]
+    },
+    "files": [
+      "test/contra-web-app/**/*"
+    ],
+    "require": [
+      "@babel/register"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
+    "webpack": "^5.0.0-beta.22",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-flow": "^7.10.1",
+    "@babel/register": "^7.10.4",
+    "@sentry/browser": "^5.19.0",
+    "@sentry/integrations": "^5.19.2",
+    "@testing-library/dom": "^7.19.0",
+    "ava": "^3.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "source-map": "^0.7.3",
+    "terser-webpack-plugin": "^3.0.6",
+    "webpack-assets-manifest": "^3.1.1",
+    "webpack-cli": "^4.0.0-beta.8"
+  },
+  "license": "UNLICENSED",
+  "name": "test-web-app",
+  "private": true
+}
